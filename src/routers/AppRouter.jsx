@@ -9,7 +9,7 @@ import NotFoundPage from '../components/NotFoundPage';
 import Header from '../components/Header';
 
 
-const routes = (
+const AppRouter = (
 <BrowserRouter>
   <div>
      <Header/>
@@ -23,3 +23,6 @@ const routes = (
   </div>
 </BrowserRouter>
 );
+
+
+export default AppRouter;
